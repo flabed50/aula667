@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Curso FDP 1 - M�dulo 3</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/autenticacao.js"></script>
+		
+	</head>
+	
+	<body>
+		<form method="POST" onsubmit="return autenticacao.validarCampos()">
+			<!-- <label>Nome: </label> -->
+			<input id="txtUsuario" name="txtUsuario" type="text" placeholder="Usu�rio">	
+			
+			<!-- <label>Senha: </label> -->
+			<input id="txtSenha" name="txtSenha" type="password" value="" placeholder="Senha">	
+			
+			<input type="submit" value="Autenticar">
+		</form>
+	</body>
+</html> 
